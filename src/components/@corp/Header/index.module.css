@@ -1,0 +1,46 @@
+.header {
+  @apply w-full h-32
+  bg-white;
+}
+
+.header-group {
+  @apply w-full h-20
+  flex
+  border-b border-gray-100;
+}
+
+.company-info {
+  @apply flex-grow px-[32px] pt-[20px];
+}
+
+.user-info {
+  @apply w-1/2 md:w-64 pt-[20px] pl-[32px] pr-[64px] relative
+  text-right;
+}
+
+.company-info p,
+.user-info p {
+  @apply font-[true-special] text-gray-400 text-base font-normal;
+}
+
+.company-info p:first-child,
+.user-info p:first-child {
+  @apply text-gray-700 text-xl leading-4;
+}
+
+.user-info-icon {
+  @apply absolute right-[32px] top-0 h-full flex items-center justify-center;
+}
+
+.breadcrumb {
+  @apply w-full h-12 p-2 px-4 flex;
+}
+
+.breadcrumb-parent {
+  @apply px-4 font-[true-special] text-2xl leading-7 text-red-500
+  border-r-2 border-gray-100;
+}
+
+.breadcrumb-child {
+  @apply px-4 font-[true-special] text-[20px] leading-7 text-gray-700;
+}

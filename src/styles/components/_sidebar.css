@@ -1,0 +1,40 @@
+.sidebar {
+  @apply relative h-screen top-0 left-0 p-2 
+  bg-sky-700
+
+  dark:bg-gray-800;
+}
+
+.sidebar-icon {
+  @apply relative w-12 h-12 flex justify-center items-center m-2 mt-2 mx-auto rounded-xl
+  text-gray-800 
+  bg-gray-200 
+
+  shadow-md
+
+  hover:rounded-md
+  hover:text-white hover:bg-sky-500 
+
+  transition-all duration-300 ease-linear 
+  cursor-pointer
+ 
+  dark:text-sky-200
+  dark:bg-gray-700
+  dark:hover:rounded-xl
+  dark:hover:text-white
+  dark:hover:bg-sky-500;
+}
+
+.sidebar-tooltip {
+  @apply absolute w-auto min-w-max p-2 m-2 left-14
+  rounded-md shadow-md
+  text-white text-sm font-bold
+  bg-gray-900
+  transition-all duration-100 scale-0 origin-left
+
+  dark:text-gray-700 dark:bg-gray-100;
+}
+
+.sidebar-expand {
+  @apply w-64;
+}

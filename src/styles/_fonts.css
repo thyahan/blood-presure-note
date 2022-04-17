@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "true";
+  src: url("/fonts/TrueMedium.ttf") format("truetype"), url("/fonts/TrueMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "true-bold";
+  src: url("/fonts/TrueBold.ttf") format("truetype"), url("/fonts/TrueBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "true-light";
+  src: url("/fonts/TrueLight.ttf") format("truetype"), url("/fonts/TrueLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "true-special";
+  src: url("/fonts/TrueBoldSpecial.ttf") format("truetype"), url("/fonts/TrueBoldSpecial.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: true, Tahoma, sans-serif;
+}

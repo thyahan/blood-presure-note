@@ -1,0 +1,16 @@
+.alert {
+  @apply relative min-h-[64px] flex items-center rounded-lg py-4 pr-4;
+  background: #d7dee5f3;
+}
+
+.alert > p {
+  @apply pl-16 text-xl text-gray-600;
+}
+
+.success > .icon,
+.warning > .icon,
+.errors > .icon {
+  @apply absolute w-8 h-8 left-4 flex justify-center items-center 
+  border-2 border-green-600 rounded-full
+  text-green-600;
+}

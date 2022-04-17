@@ -1,0 +1,19 @@
+.wizard {
+  @apply w-full;
+}
+
+.timeline {
+  @apply w-full h-20 p-4 flex;
+}
+
+.timeline-item {
+  @apply mx-10 relative;
+}
+
+.timeline-item:not(:last-child):after {
+  @apply absolute w-20 border border-gray-500;
+  content: "";
+}
+
+.timeline-item-selected {
+}

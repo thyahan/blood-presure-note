@@ -1,0 +1,9 @@
+@tailwind base;
+@import "fonts";
+
+@tailwind components;
+@import "components/collapse";
+@import "components/sidebar";
+@import "components/product_card";
+
+@tailwind utilities;
