@@ -1,0 +1,19 @@
+.button {
+  @apply h-10 px-8 py-1
+  rounded-lg
+  text-gray-50 text-xl bg-sky-500;
+}
+
+/* size */
+.sm {
+  @apply h-8 px-6 py-0.5;
+}
+
+/* type */
+.error {
+  @apply bg-red-400;
+}
+
+.success {
+  @apply bg-green-400;
+}

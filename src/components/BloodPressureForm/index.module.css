@@ -1,0 +1,4 @@
+.blood-pressure-form {
+  @apply max-w-[640px] mt-4 mx-auto flex flex-col items-center p-4 
+  bg-white shadow-md rounded-md;
+}

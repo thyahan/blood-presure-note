@@ -1,0 +1,5 @@
+.header {
+  @apply w-full p-4
+  font-bold text-3xl text-gray-200
+  bg-sky-600;
+}

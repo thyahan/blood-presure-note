@@ -1,0 +1,65 @@
+/* 
+  error-color: text-red-400 
+*/
+
+.input {
+  @apply w-full flex flex-col justify-start;
+
+  & > label {
+    @apply text-xl text-gray-500;
+  }
+
+  & > div {
+    @apply relative min-h-[64px] flex items-start;
+
+    & > span {
+      @apply absolute top-9 h-6 w-full
+      text-xl text-red-400 
+      
+      /* do ellipsis text */
+      text-ellipsis whitespace-nowrap overflow-hidden;
+    }
+
+    & > input {
+      @apply w-full h-10 px-3
+      text-xl text-gray-500 
+      bg-sky-50 
+      rounded-lg shadow-sm
+      border border-transparent;
+
+      &:focus {
+        @apply bg-white text-gray-600 
+        shadow-md shadow-sky-100 
+        border border-sky-200
+        outline-none;
+      }
+    }
+  }
+}
+
+.required {
+  & > label:after {
+    content: "*";
+    @apply ml-1 text-red-400;
+  }
+}
+
+.error {
+  & > label {
+    @apply text-red-400;
+  }
+
+  & > div > input {
+    @apply border-red-400 text-red-400;
+  }
+}
+
+.warning {
+  & > label {
+    @apply text-yellow-400;
+  }
+
+  & > div > input {
+    @apply border-yellow-400 text-yellow-400;
+  }
+}
